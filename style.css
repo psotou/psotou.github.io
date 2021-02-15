@@ -15,10 +15,10 @@
   }
   
   
-  .landing{
+  /* .landing{
       height: 100vh;
-      background-image: radial-gradient(circle, #472525, #371d1f, #261619, #180e10, #000000);
-  }
+      background-image: radial-gradient(circle, #472525, #371d1f, #261619, #180e10, #000000); 
+  } */
   .header{
       padding: 10px;
   }
@@ -68,7 +68,7 @@
       overflow: auto;
   }
   
-  #arrow {
+  /* #arrow {
       border: solid var(--main-accent-color);
       border-width: 0 10px 10px 0;
       display: none;
@@ -82,7 +82,7 @@
   #arrow:hover {
       border: solid var(--main-highlight-color);
       border-width: 0 10px 10px 0;
-  }
+  } */
   
   
   #logo {
