@@ -1,5 +1,5 @@
 baseURL: "https://psotou.github.io"
-title: ExampleSite
+title: Pas
 paginate: 5
 theme: PaperMod
 
@@ -26,10 +26,10 @@ params:
     disableThemeToggle: false
 
     ShowReadingTime: true
-    ShowShareButtons: true
-    disableSpecial1stPost: false
+    ShowShareButtons: false
+    disableSpecial1stPost: true
     comments: false
-    hidemeta: false
+    hidemeta: true
     showtoc: false
     tocopen: false
 
@@ -64,16 +64,14 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Title: "This ain't the place \U0001F992"
+        Content: "Nothing but a collection of random stuff"
 
     socialIcons:
         - name: twitter
-          url: "https://twitter.com/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
+          url: "https://twitter.com/psclsu"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/psotou"
 
     analytics:
         google:
