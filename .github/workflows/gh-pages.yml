@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-      - gh-pages  # Set a branch to deploy
+      - main  # Set a branch to deploy
 
 jobs:
   deploy:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          # ref: gh-pages
+          ref: gh-pages
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
@@ -28,7 +28,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --buildDrafts --verbose --minify
+        run: hugo --buildDrafts -gc --verbose --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
