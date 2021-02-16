@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: psotou.github.io/sitemap.xml
