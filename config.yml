@@ -1,4 +1,4 @@
-baseURL: "https://psotou.github.io"
+baseURL: "/"
 title: ExampleSite
 paginate: 5
 theme: PaperMod
