@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ExampleSite</title>
-    <link>psotou.github.io/posts/</link>
+    <link>https://psotou.github.io/posts/</link>
     <description>Recent content in Posts on ExampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 16 Feb 2021 11:15:58 -0300</lastBuildDate><atom:link href="psotou.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Feb 2021 11:15:58 -0300</lastBuildDate><atom:link href="https://psotou.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>psotou.github.io/posts/first/</link>
+      <link>https://psotou.github.io/posts/first/</link>
       <pubDate>Tue, 16 Feb 2021 11:15:58 -0300</pubDate>
       
-      <guid>psotou.github.io/posts/first/</guid>
+      <guid>https://psotou.github.io/posts/first/</guid>
       <description>HEy theRE whateves</description>
     </item>
     
