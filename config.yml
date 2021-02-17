@@ -64,14 +64,18 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "This ain't the place \U0001F992"
+        Title: "This ain't the place \U0001F427" # \U0001F992 girafa
         Content: "Nothing but a collection of random nonesense"
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/psclsu"
         - name: github
           url: "https://github.com/psotou"
+        - name: instagram
+          url: "https://www.instagram.com/pascualsu"
+        - name: twitter
+          url: "https://twitter.com/psclsu"
+        
+        
 
     analytics:
         google:

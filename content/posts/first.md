@@ -8,4 +8,4 @@ I really am concerned about the content of this blog... I mean I'd like it to be
 
 We'll see.
 
-I gues it is going to be truly random and truly personal jeje.
+I guess it is going to be truly random and truly personal jeje.
