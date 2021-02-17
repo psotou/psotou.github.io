@@ -16,20 +16,20 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "ExampleSite description"
-    author: Me
+    title: "Personal blog"
+    description: "A blog made with <3"
+    author: pas
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
 
     defaultTheme: light #auto # dark, light
-    disableThemeToggle: false
+    disableThemeToggle: true # false would let users to change it to dark iugh!
 
-    ShowReadingTime: true
+    ShowReadingTime: false
     ShowShareButtons: false
     disableSpecial1stPost: true
     comments: false
-    hidemeta: true
+    hidemeta: false
     showtoc: false
     tocopen: false
 
@@ -45,12 +45,12 @@ params:
     label:
         text: "Home"
         # icon: /apple-touch-icon.png
-        iconHeight: 35
+        # iconHeight: 35
 
     # profile-mode
     profileMode:
         enabled: false # needs to be explicitly set
-        title: ExampleSite
+        title: "Personal blog"
         subtitle: "This is subtitle"
         imageUrl: "<img location>"
         imageWidth: 120
@@ -65,7 +65,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "This ain't the place \U0001F992"
-        Content: "Nothing but a collection of random stuff"
+        Content: "Nothing but a collection of random nonesense"
 
     socialIcons:
         - name: twitter
@@ -102,10 +102,10 @@ menu:
           name: tags
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
-          weight: 30
+        # - identifier: example
+        #   name: example.org
+        #   url: https://example.org
+        #   weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
