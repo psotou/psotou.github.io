@@ -1,0 +1,41 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "psotou"
+
+theme = "smol"
+
+# Parameters
+[params]
+    subtitle = "[Random collection of pretty much nonsense]"
+    dateFmt = "2006-01-02 15:04"
+
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "posts"
+        name = "posts"
+        url = "/posts/"
+        weight = 1 
+
+  [[menu.main]]
+        identifier = "categories"
+        name = "categories"
+        url = "/categories/"
+        weight = 2
+
+# Footer
+  [[menu.footer]]
+        name = "Github"
+        url = "https://github.com/psotou"
+
+  [[menu.footer]]
+        name = "LinkedIn"
+        url = "https://www.linkedin.com/in/pascualsu/"
+
+  [[menu.footer]]
+        name = "Twitter"
+        url = "https://twitter.com/psclsu"
+
+  [[menu.footer]]
+        name = "Instagram"
+        url = "https://www.instagram.com/pascualsu/"

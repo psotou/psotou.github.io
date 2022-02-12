@@ -1,0 +1,15 @@
+{{ define "main" }}
+	<main>
+		<article>
+			<h1 style="font-size:25px">{{ .Title }}</h1><hr>
+						{{ range .Params.tags }}
+								<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+									{{ end }}
+
+			<div>
+				{{ .Content }}
+			</div>
+		</article>
+	</main>
+<!-- {{ partial "sidebar.html" . }} -->
+{{ end }}

@@ -1,0 +1,10 @@
+<footer>
+	<p>
+		psotou&copy; {{ now.Year }} 
+	</p>
+	<p>
+	{{- range .Site.Menus.footer }}
+	<a href="{{ .URL }}" target="_blank"><b>{{ .Name }}</b></a>
+        {{- end }}
+	</p>
+</footer>

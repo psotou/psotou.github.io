@@ -1,0 +1,13 @@
+<article>
+	<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+	{{ range .Params.tags }}
+	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+	{{ end }}
+	<div>
+		{{ .Summary }}
+		{{ if .Truncated }}
+		  <br>
+			<a href="{{ .Permalink }}">Read more...</a>
+		{{ end }}
+	</div>
+</article>
