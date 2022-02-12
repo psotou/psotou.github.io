@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Pas</title>
-    <link>https://psotou.github.io/categories/</link>
-    <description>Recent content in Categories on Pas</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://psotou.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on psotou</title><link>http://example.org/categories/</link><description>Recent content in Categories on psotou</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 11 Feb 2022 23:31:10 -0300</lastBuildDate><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>react</title><link>http://example.org/categories/react/</link><pubDate>Fri, 11 Feb 2022 23:31:10 -0300</pubDate><guid>http://example.org/categories/react/</guid><description/></item></channel></rss>
