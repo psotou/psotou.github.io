@@ -1,11 +1,11 @@
 html {overflow-y: scroll}
 :root {
     --bgcolor: white;
-    --fontcolor: rgb(73, 59, 105);
-    --linkcolor: rgb(22, 56, 204);
+    --fontcolor: rgb(46, 46, 46);
+    --linkcolor: rgb(118, 0, 128);
     /* --visitedcolor: rgb(118, 48, 175); */
     --precolor: #fff;
-    --prebgcolor: rgb(89, 73, 119);
+    --prebgcolor: rgb(118, 0, 128);
 }
 @media (prefers-color-scheme: dark) {
     :root {
