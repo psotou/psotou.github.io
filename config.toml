@@ -6,7 +6,7 @@ theme = "smol"
 
 # Parameters
 [params]
-    subtitle = "[Random collection of pretty much nonsense]"
+    # subtitle = "[Random collection of pretty much nonsense]"
     dateFmt = "2006-01-02 15:04"
 
 # Header
