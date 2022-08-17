@@ -23,7 +23,6 @@ theme = "smol"
         url = "/categories/"
         weight = 2
 
-# Footer
   [[menu.footer]]
         name = "Github"
         url = "https://github.com/psotou"
@@ -39,3 +38,7 @@ theme = "smol"
   [[menu.footer]]
         name = "Instagram"
         url = "https://www.instagram.com/pascualsu/"
+[markup]
+  [markup.highlight]
+    style = 'tango'
+    tabWidth = 4

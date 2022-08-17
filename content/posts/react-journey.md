@@ -18,3 +18,9 @@ I went with React becuase looking at the job market in my country it does seem l
 Another very good reason for picking React and not somehting like Svelte is its metaframework NextJS.
 
 After reading some blogs, reddits, and watching some youtube videos, Next seems to be a pretty mature and plainly good tool for building an e-commerce, which is my main short-term goal.
+
+```golang
+func main() {
+    fmt.Println("holi")
+}
+```
