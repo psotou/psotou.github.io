@@ -1,4 +1,5 @@
-baseURL = "http://psotou.github.io"
+# baseURL = "http://psotou.github.io"
+baseURL = "http://psotou.deno.dev"
 languageCode = "en-us"
 title = "psotou"
 
