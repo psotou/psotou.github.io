@@ -33,6 +33,7 @@ a:active{color: var(--visitedcolor)}
 h1,h2,h3{line-height:1.2}
 p > code{
     font-family:'Noto Sans Mono', monospace;
+    font: 14px/1.5;
     color: var(--precolor);
     background: var(--prebgcolor);
     padding:2px
