@@ -1,35 +1,33 @@
 html {overflow-y: scroll}
 :root {
     --bgcolor: white;
-    --fontcolor: rgb(46, 46, 46);
-    --linkcolor: rgb(118, 0, 128);
-    /* --visitedcolor: rgb(118, 48, 175); */
+    --fontcolor: #2e2e2e;
+    --linkcolor: #5f4b5f;
     --precolor: #fff;
-    --prebgcolor: rgb(118, 0, 128);
+    --prebgcolor: #5f4b5f;
 }
 @media (prefers-color-scheme: dark) {
     :root {
-        --bgcolor: black;
-        --fontcolor: white;
-        --linkcolor: #5bf;
-        /* --visitedcolor: #ae5ee0; */
-        --precolor: #fff;
-        --prebgcolor: #383838;
+    --bgcolor: white;
+    --fontcolor: #2e2e2e;
+    --linkcolor: #5f4b5f;
+    --precolor: #fff;
+    --prebgcolor: #5f4b5f;
     }
 }
 body{
     max-width:800px;
     margin:40px auto;
     padding:0 10px;
-    font-family: 'Mulish', sans-serif;
-    /* font-family:'Noto Sans Mono', monospace; */
+    /* font-family: 'Mulish', sans-serif; */
+    font-family:'Noto Sans Mono', monospace;
     font: 14px/1.5;
     color:var(--fontcolor);
     background: var(--bgcolor)
 }
 a:link{color: var(--linkcolor)}
-/* a:visited{color: var(--visitedcolor)} */
-a:active{color: var(--visitedcolor)}
+a:visited{color: var(--linkcolor)}
+a:active{color: var(--linkcolor)}
 h1,h2,h3{line-height:1.2}
 p > code{
     font-family:'Noto Sans Mono', monospace;
