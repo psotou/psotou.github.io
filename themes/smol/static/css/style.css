@@ -6,7 +6,7 @@ html {overflow-y: scroll}
     --precolor: #fff;
     --prebgcolor: #5f4b5f;
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
     :root {
     --bgcolor: white;
     --fontcolor: #2e2e2e;
